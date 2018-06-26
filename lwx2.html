@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" media="screen" />
+<title>picture</title>
+<style>
+body{
+  font-family:"Helvetirial setif;
+  color:#333;
+  background-color:#ccc;
+  margin:lem 10%;
+}
+hl{
+  color:#333;
+  background-color:transparent;
+}
+a{
+  color:#c60;
+  background-color:transparent;
+  font-weight:bold;
+  text-decoration:none;
+}
+ul{
+  padding:0;
+}
+li{
+  padding: 1em;
+  list-style:none;
+}
+#imagegallery {
+  list-style: none;
+}
+
+#imagegallery li {
+  display: inline;
+}
+
+#imagegallery li a img {
+  border: 0;
+}
+</style>
+</head>
+<body>
+<h1>Snapshots</h1>
+<ul id="imagegallery">
+  <li>
+      <a href="image/蝴蝶.jpg" title="A butterfly">
+        <img src="image/thumbnail_蝴蝶.jpg" alt="butterfly" />
+      </a>
+    </li>
+    <li>
+      <a href="image/花.jpg" title="A flower" >
+        <img src="image/thumbnail_花.jpg" alt="flower" />
+      </a>
+    </li>
+    <li>
+      <a href="image/田园.jpg" title="A countryside">
+        <img src="image/thumbnail_田园.jpg" alt="countryside" />
+      </a>
+    </li>
+    <li>
+      <a href="image/星空.jpg" title="star sky">
+        <img src="image/thumbnail_星空.jpg" alt="star sky" />
+      </a>
+    </li> </ul>
+<img id="placeholder" src="image/背景.jpg" alt="my image gallery">
+<script type="text/javascript" src="script/showpic2.js"></script>
+  <p id="description">Choose an image.</p>
+</body>
+</html>
